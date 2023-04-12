@@ -1,32 +1,30 @@
-**Overview:** 
+# Overview
 This Project is using MVVM arctitecture to solve the given problem. It displays the the list of music festival data in a particular manner: at the top level, it is shows the band record label, below that it shows list out all bands under their management, and below that it  displays which festivals they've attended, if any. All entries are sorted alphabetically.
 
 The data is coming from the API https://eacp.energyaustralia.com.au/codingtest/api-docs
 
-**ViewControllers**
+## ViewControllers
 
 RecordsViewController - Consists of a tableView to show data
 
-**ViewModels**
+## ViewModels
 
 RecordsViewModel - Call the API to load data, having business logic to convert data and provides to its controller
 
-**Views**
+## Views
 
 Main.storyboard - Consists of viewcontroller
 
-**DataModel**
+## DataModel
 
 Festival - DataModel for the Festival and Band Data model
 
 
-**Other**
+## Other
 
 NetworkManager - To call the APIs
 
-**Mocks and Unit Tests**
-
-
+## Mocks and Unit Tests
 
 MockFestivals - To mock Festivals response
 
@@ -35,7 +33,7 @@ MockNetworkManager - Mocking API call
 RecordsViewModelTests - To test respective ViewModel
 
 
-**Assumptions:**
+# Assumptions
 
 1 - A band is associated with only one recordLabel
 
