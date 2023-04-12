@@ -40,4 +40,5 @@ RecordsViewModelTests - To test respective ViewModel
 2 - A band object will always be present in Festival object(if any) in the API response 
 
 3 - If there is any recordLabel blank(""). It will be shown at the top of recordLabel list as a blank tableView section header consiting of associated bands and their attended festival list.
+
 4 - If a band festival is blank(""). There will be blank tableview row under band list.
