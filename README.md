@@ -32,7 +32,6 @@ MockNetworkManager - Mocking API call
 
 RecordsViewModelTests - To test respective ViewModel
 
-
 # Assumptions
 
 1 - A band is associated with only one recordLabel
